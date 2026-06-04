@@ -104,7 +104,7 @@ resource "aws_eks_node_group" "nodes" {
     max_size     = 3
   }
 
-  instance_types = ["t2.micro"]
+  instance_types = ["t3.micro"]
 
   capacity_type = "ON_DEMAND"
 
